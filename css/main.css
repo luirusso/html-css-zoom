@@ -126,3 +126,7 @@ footer li {
     display: flex;
     align-items: center;
 }
+
+.participants-number {
+    display: flex;
+}
