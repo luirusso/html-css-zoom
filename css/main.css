@@ -21,6 +21,10 @@ main {
     flex-grow: 1;
 }
 
+button {
+    cursor: pointer;
+}
+
 ul {
     list-style: none;
 }
@@ -88,9 +92,15 @@ footer li {
 
 .footer-icon {
     text-align: center;
+    cursor: pointer;
 }
 
 .footer-icon .icon {
     font-size: 25px;
     margin: 5px;
+}
+
+.footer-icon.caret-icon {
+    display: flex;
+    align-items: center;
 }
