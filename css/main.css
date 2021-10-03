@@ -5,3 +5,25 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+body {
+    background-color: black;
+}
+
+header div button span {
+    padding-right: 5px;
+}
+
+/* UTILITIES */
+.header-buttons {
+    text-align: right;
+    padding: 10px 5px;
+}
+
+.gradient-btn {
+    background: linear-gradient(#3B3B3B, #1A2320);
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: none;
+}
